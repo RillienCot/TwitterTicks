@@ -3,7 +3,7 @@ Pulls data from twitter and yahoo finance to create a pandas dataframe of tweet 
 
 Sample Usage
 ```
-from SentAnal import *
+from TwitterQueryScoring import *
 
 # Get tweets mentioning MSFT for a date range
 tweet_folder = saveTweets('MSFT', '2019-07-01', '2022-07-31')
