@@ -6,7 +6,7 @@ Sample Usage
 from TwitterQueryScoring import *
 
 # Get tweets mentioning MSFT for a date range
-tweet_folder = saveTweets('MSFT', '2022-07-01', '2022-07-31')
+tweet_folder = saveTweets('MSFT', '2022-06-01', '2022-06-30')
 
 # Combine tweets from saveTweets with stock market price data into dataframe of scores and average price
 data = getDataMatrix('MSFT', tweet_folder)
